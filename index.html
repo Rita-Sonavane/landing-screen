@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto-Redirect</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #F0F7FF;
+            font-family: 'Rubik', sans-serif !important;
+        }
+
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .box img {
+            width: 60px;
+            height: 60px;
+            margin-bottom: 12px;
+        }
+
+        .heading {
+            font-weight: 500;
+            font-size: 1.6rem;
+            display: block;
+            color: #111111;
+            margin-bottom: 6px;
+        }
+
+        .sub-heading {
+            font-size: 1rem;
+            color: #656565;
+            margin-bottom: 12px;
+        }
+
+        .alert-box {
+            background: #FFFFFF;
+            border-radius: 8px;
+            padding: 10px 12px 10px 12px;
+            border: 1px solid #D0E7FF;
+        }
+
+        .button-text {
+            font-weight: 500;
+            font-size: 1rem;
+            color: #111;
+        }
+
+        .alert-box small {
+            display: block;
+            font-size: 0.85rem;
+            color: #656565;
+        }
+
+        @media (max-width: 576px) {
+            .box {
+                padding: 0px;
+            }
+
+            .heading {
+                font-size: 1.2rem;
+            }
+
+            .sub-heading {
+                font-size: 0.8rem;
+            }
+
+            .button-text {
+                font-size: 1.05rem;
+            }
+
+            .alert-box small {
+                font-size: 0.9rem;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="col-md-6 col-12">
+            <div class="box">
+                <div>
+                    <img src="clock.svg" alt="Clock Icon">
+                </div>
+                <span class="heading">You will be auto-redirecting back to SMART SELECT mobile app</span>
+                <p class="sub-heading">
+                    Continue your investment journey with ease. Discover tailored options, track your progress, and make
+                    informed decisions—all in one app.
+                </p>
+
+                <div class="alert-box">
+                    <span class="button-text">Do Not Close Or Switch To Other App</span>
+                    <small>Please wait while completing this process...</small>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
